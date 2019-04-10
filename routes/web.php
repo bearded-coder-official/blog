@@ -29,3 +29,5 @@ Route::get('/categories/delete/{category}', 'CategoryController@delete')->name('
 Route::get('/about-us', function (){
 
 })->name('about');
+
+Route::get('/xyz', function (){})->name('about');
