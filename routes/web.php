@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'HomeController@home')->name('home');
+Route::get('/', 'HomeController@home')->name('home.index');
 
 Route::get('/services', 'ServicesController@services')->name('services');
 Route::get('/service/{slug}', 'ServicesController@service')->name('service');
@@ -25,3 +25,7 @@ Route::post('/categories/save', 'CategoryController@save')->name('categories.sav
 Route::get('/categories/edit/{category}', 'CategoryController@edit')->name('categories.edit');
 Route::post('/categories/store/{category}', 'CategoryController@store')->name('categories.store');
 Route::get('/categories/delete/{category}', 'CategoryController@delete')->name('categories.delete');
+
+Route::get('/about', function (){
+
+})->name('about');
