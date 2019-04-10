@@ -33,3 +33,4 @@ Route::get('/about-us', function (){
 Route::get('/xyz', function (){})->name('about');
 
 Route::get('/abc', function (){})->name('abc');
+Route::get('/123', function (){})->name('ott');
