@@ -26,6 +26,6 @@ Route::get('/categories/edit/{category}', 'CategoryController@edit')->name('cate
 Route::post('/categories/store/{category}', 'CategoryController@store')->name('categories.store');
 Route::get('/categories/delete/{category}', 'CategoryController@delete')->name('categories.delete');
 
-Route::get('/about', function (){
+Route::get('/about-us', function (){
 
 })->name('about');
